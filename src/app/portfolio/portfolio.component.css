@@ -1,0 +1,49 @@
+
+.portfolio-section {
+  background-color: #f8f9fa;
+}
+
+
+.portfolio-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.portfolio-card {
+  background-color: #9c9487;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+
+.portfolio-card:hover {
+  transform: scale(1.05);
+}
+
+
+.dark-bg {
+  background-color: #333;
+}
+
+
+.portfolio-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+.divider {
+  width: 50px;
+  height: 2px;
+  background-color: white;
+  margin-top: 5px;
+}

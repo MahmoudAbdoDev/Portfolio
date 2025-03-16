@@ -1,0 +1,17 @@
+<div class="portfolio-section py-5 bg-dark vh-100 d-flex align-items-center justify-content-center bg-light">
+  <div class="container text-center">
+    <h2 class="portfolio-title mb-4 text-white">Portfolio</h2>
+
+    <div class="row">
+      @for (item of portfolioItems; track item) {
+      <div class="col-md-4 mb-4">
+      <div class="portfolio-card" [class.dark-bg]="item.dark">
+        <span class="portfolio-text">{{ item.name }}</span>
+        <div class="divider"></div>
+      </div>
+      </div>
+      }
+    </div>
+  </div>
+</div>
+

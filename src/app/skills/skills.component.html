@@ -1,0 +1,39 @@
+<div class="skills-section text-white py-5">
+  <div class="container text-center">
+
+    <h2 class="mb-3">Skills</h2>
+
+
+    <p class="mb-4">{{briefWords}}</p>
+
+    <div class="row">
+
+      <div class="col-md-4 text-start">
+        <h5 class="mb-3">MY FOCUS</h5>
+        <hr class="divider">
+        <ul class="list-unstyled">
+          <li>Full Stack Development</li>
+          <li>Angular & .NET APIs</li>
+          <li>Responsive & Modern UI</li>
+          <li>Database & Cloud Integration</li>
+        </ul>
+      </div>
+
+
+      <div class="col-md-8">
+        @for (skill of skills; track skill) {
+        <div class="mb-3">
+          <label class="fw-bold">{{ skill.name }}</label>
+          <div class="progress">
+            <div class="progress-bar bg-light text-dark" role="progressbar" [style.width.%]="skill.percentage">
+              {{ skill.percentage }}%
+            </div>
+          </div>
+        </div>
+        }
+      </div>
+    </div>
+  </div>
+</div>
+
+

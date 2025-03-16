@@ -1,0 +1,21 @@
+.navbar-nav .nav-link {
+    color: black !important;
+    /* transition: 0.3s; */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    opacity: 0.8;
+  }
+  
+  .navbar-nav .nav-link.active {
+    font-weight: bold;
+    background: white;
+    color:black !important;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+
+  .bg-gray{
+    background-color: rgb(146, 139, 139);
+  }
