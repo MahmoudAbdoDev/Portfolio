@@ -1,0 +1,9 @@
+name = "portfolio"
+type = "static"
+
+account_id = "acf9c1f64bad834ccb873b4c68b05a6e"
+
+site.bucket = "./dist/portfolio/browser"
+
+site.entry-point = "."
+

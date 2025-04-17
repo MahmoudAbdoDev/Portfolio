@@ -8,14 +8,18 @@ import { Component } from '@angular/core';
 })
 export class PortfolioComponent {
   portfolioItems = [
-    { name: 'WEB DESIGN', dark: false },
-    { name: 'MOBILE DESIGN', dark: true },
-    { name: 'LOGO DESIGN', dark: false },
-    { name: 'WEB APPLICATION DEVELOPMENT', dark: true },
-    { name: 'MOBILE APPLICATION DEVELOPMENT', dark: false },
-    { name: 'PWA DEVELOPMENT', dark: true }
+    { name: 'WEB DESIGN', dark: false ,imageUrl:'/protofoliogallery/park.png' ,hrefUrl: 'https://real-estate-template-7naweys-projects.vercel.app/portfolio.html' },
+    { name: 'MOBILE DESIGN', dark: true ,imageUrl:'' ,hrefUrl: '' },
+    { name: 'LOGO DESIGN', dark: false, imageUrl:'' ,hrefUrl: '' },
+    { name: 'WEB APPLICATION DEVELOPMENT', dark: true, imageUrl:'' ,hrefUrl: '' },
+    { name: 'MOBILE APPLICATION DEVELOPMENT', dark: false ,imageUrl:'' ,hrefUrl: '' },
+    { name: 'PWA DEVELOPMENT', dark: true ,imageUrl:'' ,hrefUrl: '' }
   ];
 
+
+
+
+  
 }
 
 
